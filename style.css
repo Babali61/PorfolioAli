@@ -96,6 +96,7 @@ body {
   left: 50%;
   transform: translateX(-50%);
   box-shadow: 0px 0px 50px 25px rgba(187, 27, 27, 0.2);
+  display: none;
 }
 
 main {
@@ -149,6 +150,62 @@ main {
   color: #fff;
   border-radius: 10px;
   border: 2px solid white;
+}
+
+@media screen and (max-width: 1230px) {
+  main {
+    flex-direction: column;
+    align-items: center;
+  }
+  .parentProjet {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 900px) {
+  .ecran {
+    width: 80%;
+    margin: auto;
+  }
+}
+@media screen and (max-width: 650px) {
+  .ecran .carte {
+    margin-top: 15%;
+    margin-bottom: 15%;
+    height: 720px;
+  }
+  .ecran .carte .photoCarte {
+    width: 230px;
+    height: 230px;
+  }
+  .ecran .carte .titreCarte {
+    font-size: 22px;
+  }
+  .ecran .carte .descriptionCarte {
+    font-size: 17px;
+  }
+  svg {
+    width: 20px;
+    height: 20px;
+  }
+  .iconCarte {
+    width: 20px;
+    height: 20px;
+  }
+  .descriptionCarte .descriptionCompetences {
+    padding-left: 6%;
+    padding-right: 6%;
+  }
+  .liensCarte .liensNav {
+    width: 60px;
+    height: 60px;
+  }
+  .liensContact .boutonEmail {
+    width: 218px;
+    font-size: 19px;
+  }
+  .projet .descriptionProjet {
+    padding-bottom: 3%;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
