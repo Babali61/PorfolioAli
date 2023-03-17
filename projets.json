@@ -1,0 +1,46 @@
+{
+    "projets": [
+      {
+        "type": "htmlCssSeo",
+        "titre": "Booki",
+        "date": "sept. 2022 - oct. 2022",
+        "description": "Transformation d'une maquette de location de voyage en site web avec HTML & CSS, en mettant en place une structure HTML5 correspondant aux éléments de la maquette et en appliquant un style approprié à la maquette avec CSS3.",
+        "lien": "https://babali61.github.io/Booki/"
+      },
+      {
+        "type": "javascript",
+        "titre": "Kanap",
+        "date": "déc. 2022 - janv. 2023",
+        "description": "Construction d'un site e-commerce en utilisant JavaScript, création d'un plan de test pour l'application, validation des données provenant de sources externes, interaction avec un web service avec JavaScript, gestion des événements en JavaScript.",
+        "lien": "https://github.com/Babali61/kanap"
+      },
+      {
+        "type": "htmlCssSeo",
+        "titre": "Ohmyfood",
+        "date": "oct. 2022 - nov. 2022",
+        "description": "Dynamiser un site mobile first de répertoire d'avis gastronomiques avec des animations CSS, en fesant le responsive, en utilisant Git pour le versionnage du projet, en mettant en œuvre des effets graphiques CSS avancés et en mettant en place une structure de navigation pour le site.",
+        "lien": "https://babali61.github.io/ohmyfood/"
+      },
+      {
+        "type": "javascript",
+        "titre": "Piiquante",
+        "date": "janv. 2023 - févr. 2023",
+        "description": "Construction d'une API sécurisée avec Node.js, Express et mongoDB pour une application d'avis gastronomiques, mise en œuvre sécurisée des opérations CRUD, implémentation d'un modèle logique de données, stockage sécurisé des données.",
+        "lien": "https://github.com/Babali61/Projet_6__Piiquante__Ali_Yavuzyilmaz"
+      },
+      {
+        "type": "htmlCssSeo",
+        "titre": "La Panthère",
+        "date": "nov. 2022 - nov. 2022",
+        "description": "Optimisation du site web d'une agence web en assurant son accessibilité, en optimisant son référencement et en améliorant sa taille et sa vitesse.",
+        "lien": "https://babali61.github.io/LaPanthere/"
+      },
+      {
+        "type": "javascript",
+        "titre": "Kasa",
+        "date": "févr. 2023 - mars 2023",
+        "description": "Création d'une application web de location immobilière avec React, initialisation de l'application avec Create React App, configuration de la navigation entre les pages de l'application avec React Router et développement des éléments de la maquette Figma d'un site web à l'aide de composants React.",
+        "lien": "https://github.com/Babali61/kasa"
+      }
+    ]
+  }
