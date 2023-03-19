@@ -40,7 +40,7 @@
         "titre": "Kasa",
         "date": "févr. 2023 - mars 2023",
         "description": "Création d'une application web de location immobilière avec React, initialisation de l'application avec Create React App, configuration de la navigation entre les pages de l'application avec React Router et développement des éléments de la maquette Figma d'un site web à l'aide de composants React.",
-        "lien": "https://github.com/Babali61/kasa"
+        "lien": "https://kasaprojectali.netlify.app/"
       }
     ]
   }
