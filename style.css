@@ -157,6 +157,22 @@ main {
   color: #fff;
 }
 
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background: black;
+  height: 200px;
+}
+
+.parentCitation {
+  color: #fff;
+}
+.parentCitation .citation {
+  padding: 2% 5% 2% 5%;
+}
+
 @media screen and (max-width: 1230px) {
   main {
     flex-direction: column;
