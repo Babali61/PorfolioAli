@@ -81,11 +81,18 @@ body {
   width: 260px;
   margin-bottom: 2%;
   border-radius: 10px;
-  border: 2px solid white;
+  border: 2px solid black;
   padding: 9% 7%;
+  background-color: black;
   color: white;
   font-weight: 500;
   font-size: 22px;
+}
+
+.liensContact .boutonEmail:hover {
+  background: rgba(225, 225, 225, 0);
+  border: 2px solid #FFF;
+  color: #fff;
 }
 
 .middle-line {
@@ -162,6 +169,7 @@ footer {
   align-items: center;
   justify-content: center;
   text-align: center;
+  background: rgba(0, 0, 0, 0.3);
   height: 200px;
 }
 
