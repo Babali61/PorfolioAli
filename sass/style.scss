@@ -187,7 +187,7 @@ footer {
     align-items: center;
     justify-content: center;
     text-align: center;
-    background: black;
+   
     height: 200px;
 }
 .parentCitation{
@@ -200,7 +200,7 @@ footer {
 @media screen and (max-width: 1230px) {
 
 
-    main {
+    .mainProjet {
         flex-direction: column;
         align-items: center;
     }
