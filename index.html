@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600&display=swap" media="print" onload="this.media='all'">
     <link rel="stylesheet" href="./style.css">
+    <link rel="preload" as="image" href="./assets/ali.webp" fetchpriority="high">
     <script defer src="./vanilla-tilt.js"></script>
     <script defer src="./script.js"></script>
     <title>Portfolio Ali</title>
@@ -20,13 +21,17 @@
         <nav>
             <div class="ecran">
                 <div class="carte" data-tilt>
-                    <img 
-                        src="./assets/ali.webp" 
-                        alt="Photo de profil de Ali" 
-                        class="photoCarte" 
-                        width="320" 
-                        height="320" 
-                        loading="lazy">
+                    <div class="image-container">
+                        <img 
+                            src="./assets/ali.webp" 
+                            alt="Photo de profil de Ali" 
+                            class="photoCarte" 
+                            width="320" 
+                            height="320" 
+                            loading="eager"
+                            fetchpriority="high"
+                            decoding="async">
+                    </div>
                     <h1 class="titreCarte">Ali Yavuzyilmaz</h1>
                     <div class="descriptionCarte">
                         <p class="descriptionMetier" data-i18n="jobTitle">

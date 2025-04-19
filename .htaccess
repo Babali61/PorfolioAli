@@ -1,0 +1,5 @@
+# Activer le cache pour les fichiers JSON
+<FilesMatch "\.json$">
+    Header set Cache-Control "public, max-age=31536000"
+    Header set Expires "access plus 1 year"
+</FilesMatch> 
