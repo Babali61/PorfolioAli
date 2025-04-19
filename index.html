@@ -29,9 +29,8 @@
                         loading="lazy">
                     <h1 class="titreCarte">Ali Yavuzyilmaz</h1>
                     <div class="descriptionCarte">
-                        <p class="descriptionMetier">
-                            Développeur Web - Javascript,<br>
-                            Développeur Frontend,
+                        <p class="descriptionMetier" data-i18n="jobTitle">
+                            Développeur Web - Javascript
                         </p>
                         <p class="descriptionCompetences">
                             HTML<svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="32" height="32"
@@ -90,8 +89,10 @@
                         </a>
                     </div>
                     <div class="liensContact">
-                        <a href="mailto:aliyavuzyilmaz61@gmail.com" class="boutonEmail">Contact par mail</a>
-
+                        <a href="mailto:aliyavuzyilmaz61@gmail.com" class="boutonEmail" data-i18n="contactButton">Contact par mail</a>
+                    </div>
+                    <div class="language-switch">
+                        <button id="languageToggle" class="language-button">EN</button>
                     </div>
                 </div>
             </div>
@@ -100,13 +101,18 @@
     <main>
         <div class="mainProjet">
             <div class="parentProjet" id="htmlCssSeoProjets">
-                <h2 class="titreProjets">Projets Html & Css, SEO</h2>
+                <h2 class="titreProjets" data-i18n="htmlCssSeoProjects">Projets Html & Css, SEO</h2>
             </div>
             <div class="middle-line"></div>
             <div class="parentProjet" id="javascriptProjets">
-                <h2 class="titreProjets">Projets JavaScript</h2>
+                <h2 class="titreProjets" data-i18n="javascriptProjects">Projets JavaScript</h2>
             </div>
         </div>
+        <div class="star-control">
+            <span class="star-icon">★</span>
+            <label for="star-density" data-i18n="starDensity">Densité d'étoiles</label>
+            <input type="range" id="star-density" min="1" max="100" value="50" class="star-slider">
+            <span class="star-value">50%</span>
         </div>
     </main>
     <footer>
@@ -115,6 +121,7 @@
             <h3 class="auteur"></h3>
         </div>
     </footer>
+    <script src="js/stars.js"></script>
 </body>
 
 </html>
